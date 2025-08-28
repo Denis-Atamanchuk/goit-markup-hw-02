@@ -6,6 +6,7 @@
 
   .logo {
     font-family: "Raleway", sans-serif;
+    font-weight: 700;
     font-size: 18px;
     line-height: 117%;
     letter-spacing: 0.03em;
@@ -17,9 +18,9 @@
     color: #2e2f42;
   }
 
-  .nav-item {
-    line-height: 150%;
+  .menu {
     color: #2e2f42;
+    line-height: 150%;
     letter-spacing: 0.02em;
     font-weight: 500;
     font-size: 16px;
@@ -93,10 +94,11 @@ color: #404BBF;
   }
 
   .team-section {
-  background-color: #F4F4FD;
+  background-color: #FFFFFF
   }
 
   .our-team {
+    text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
     font-size: 36px;
@@ -146,8 +148,10 @@ color: #404BBF;
     background-color: #2E2F42;
     color: #F4F4FD;}
 
-  .footer-logo {}
+  .button:hover {
+  background-color: #404BBF;
+  }
 
-  .footer-logo-span {}
-
-  .footer-text {}
+  .button:focus {
+    background-color: #404BBF
+  }
