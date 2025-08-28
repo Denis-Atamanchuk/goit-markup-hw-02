@@ -94,7 +94,11 @@ color: #404BBF;
   }
 
   .team-section {
-  background-color: #FFFFFF
+  background-color: #F4F4FD
+  }
+
+  .team-members-list .team-member {
+background-color: #FFFFFF;
   }
 
   .our-team {
@@ -123,6 +127,7 @@ color: #404BBF;
   }
 
   .portfolio {
+    text-transform: capitalize;
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
@@ -132,6 +137,7 @@ color: #404BBF;
 
   .project-title {
     font-weight: 500;
+    letter-spacing: 0.02em;
     font-size: 20px;
     color: #2e2f42;
     line-height: 1.2;
@@ -147,6 +153,25 @@ color: #404BBF;
   .footer {
     background-color: #2E2F42;
     color: #F4F4FD;}
+
+    .footer-logo {
+      font-family: "Raleway", sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 1.17;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #4d5ae5;
+    }
+    
+    .footer-logo-span {
+      color: #f4f4fd;
+    }
+    
+    .footer-text {
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+    }
 
   .button:hover {
   background-color: #404BBF;
