@@ -14,40 +14,36 @@
     color: #4d5ae5;
   }
 
-  .first-logo {
+  .logo-span {
     color: #2e2f42;
   }
 
-  .menu {
-    color: #2e2f42;
+ .menu-item{
+  color: #2e2f42;
     line-height: 150%;
     letter-spacing: 0.02em;
     font-weight: 500;
     font-size: 16px;
-  }
+ }
 
-  .nav-item:focus .nav-item:hover {
+  .menu-item:focus, .menu-item:hover {
     color: #404bbf;
   }
 
-  .nav:hover {
-color: #404BBF;
-  }
-
-  .nav:focus {
-color: #404BBF;
-  }
-
-  .address {
+  .contacts {
     font-style: normal;
   }
 
-  .address-item {
+  .contacts-item {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
+  }
+
+  .contacts-item:hover, .contacts-item:focus {
+    color: #404bbf;
   }
 
   .header-section {
